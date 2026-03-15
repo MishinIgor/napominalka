@@ -55,6 +55,8 @@ export interface User {
   name: string;
   username: string | null;
   role: "admin" | "member" | "guest";
+  quiet_start: string | null;
+  quiet_end: string | null;
 }
 
 export interface FamilyMember extends User {
